@@ -1,0 +1,12 @@
+var operation = function(){};
+var num = 3;
+function repeat(operation,num){
+return operation*num;
+}
+
+function repeat(operation,num){
+	if(num <=0) return
+		operation()
+	return repeat(operation,--num)
+}
+module.exports = repeat
